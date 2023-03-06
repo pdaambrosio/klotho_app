@@ -1,0 +1,20 @@
+uvicorn==0.18.3
+pydantic==1.10.2
+fastapi==0.75.2
+aiocache==0.11.1
+
+
+# Added by Klotho:
+# klotho::persist (fs)
+boto3>=1.24.96, <2.0.0
+
+# klotho::persist (fs)
+boto3>=1.24.96, <2.0.0
+
+# klotho::expose
+fastapi>=0.75.0, <1.0.0
+
+# klotho::execution_unit (lambda)
+mangum>=0.15.1, <1.0.0
+requests>=2.24.0,<3.0.0
+
